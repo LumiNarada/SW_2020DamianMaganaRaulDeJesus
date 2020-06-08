@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Una ayudadita... ¿O no?</title>
+    <link rel="stylesheet" href="../statics/hojisha.css">
+  </head>
+  <body>
+      <fieldset>
+        <legend><h1>Regístrate</h1> </legend>
+        <!--Formulario con los datos necesarios-->
+        <form action='../dynamics/Revision.php' method='post'>
+          <table class='transparente'>
+          <tr>
+            <th>Nombre:</th>
+            <th>
+              <input type='text' name='Nombre' value='' placeholder = 'Ej: Isauro' maxlength='25' title ='Coloque su nombre' required>
+            </th>
+          </tr>
+          <tr>
+            <th>Apellido Paterno:</th>
+            <th>
+              <input type='text' name='Papellido' value='' placeholder = 'Ej: Figueroa' maxlength='25' title ='Coloque su apellido' required>
+            </th>
+          </tr>
+          <tr>
+            <th>Apellido Materno:</th>
+            <th>
+              <input type='text' name='Mapellido' value='' placeholder = 'Ej: Rodríguez' maxlength='25' title ='Coloque su apellido'>
+            </th>
+          </tr>
+          <tr>
+            <th>Fecha de nacimiento:</th>
+            <th>
+               <input type="date" name="Fecha" value='' required>
+            </th>
+          </tr>
+          <tr>
+            <th>RFC:</th>
+            <th>
+              <input type='text' name='rfc' value='' placeholder = 'Ej: FIRI8505137A3' title = 'El formato debe coincider con el de RFC' required>
+            </th>
+          </tr>
+            <th>Colegio:</th>
+            <th>
+              <input type='text' name='col'  style='width : 170px;' placeholder='Ej: ENP 6 \"Antonio Caso\"' maxlength='50' required
+              title= 'Escriba el nombre del colegio al que pertenece'>
+            </th>
+          </tr>
+          <tr>
+            <th>Contraseña:</th>
+            <th>
+              <input type='password' name='contrasena' value='' placeholder ='*******' minlength='6' maxlength='16' required>
+            </th>
+          </tr>
+          <tr>
+            <th colspan='2' style='text-align:center;'> <br> <input type='submit' name='Continuar' value='Continuar'></th>
+          </tr>
+          <!--obviO est0 n0 es reciclAd0 del proyect0 nononono-->
+        </form>
+      </fieldset>
+    </form>
+  </body>
+</html>
